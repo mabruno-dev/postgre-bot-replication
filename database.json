@@ -1,0 +1,54 @@
+{
+    "tables": [
+        {
+            "table": "pessoas",
+            "columns": [
+                {
+                    "column": "id",
+                    "data_type": "bigint"
+                },
+                {
+                    "column": "nome",
+                    "data_type": "character varying"
+                },
+                {
+                    "column": "pais",
+                    "data_type": "character varying"
+                },
+                {
+                    "column": "replicado",
+                    "data_type": "character varying"
+                },
+                {
+                    "column": "ativo",
+                    "data_type": "character varying"
+                }
+            ]
+        },
+        {
+            "table": "dados",
+            "columns": [
+                {
+                    "column": "id_dado",
+                    "data_type": "bigint"
+                },
+                {
+                    "column": "id_pessoa",
+                    "data_type": "bigint"
+                },
+                {
+                    "column": "cpf",
+                    "data_type": "character varying"
+                },
+                {
+                    "column": "replicado",
+                    "data_type": "character varying"
+                },
+                {
+                    "column": "ativo",
+                    "data_type": "character varying"
+                }
+            ]
+        }
+    ]
+}
